@@ -1,0 +1,8 @@
+<div class="container">
+  <h1>Result</h1>
+  <h2><%= @result %></h2>
+  <p>Your attempt: <%= @user_input %></p>
+  <p>Your grid: <%= @grid.chars.join(', ') %></p>
+  <br>
+  <%= link_to 'Play again', new_path %>
+</div>
